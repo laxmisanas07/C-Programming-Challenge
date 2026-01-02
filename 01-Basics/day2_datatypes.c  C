@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int age = 20;
+    float price = 99.99;
+    char grade = 'A';
+
+    printf("Age: %d, Size: %ld bytes\n", age, sizeof(age));
+    printf("Price: %.2f, Size: %ld bytes\n", price, sizeof(price));
+    printf("Grade: %c, Size: %ld bytes\n", grade, sizeof(grade));
+    
+    return 0;
+}
